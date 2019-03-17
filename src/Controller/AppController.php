@@ -37,6 +37,11 @@ class AppController extends Controller
      *
      * @return void
      */
+
+     public function beforeRender(Event $event) {
+        $this->viewBuilder()->setTheme('AdminLTE');
+
+     }
     public function initialize()
     {
         parent::initialize();

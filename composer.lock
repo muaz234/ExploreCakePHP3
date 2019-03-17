@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e961e60726b6a287f6a4320b9e873431",
+    "content-hash": "ab20549c6804318b448fc381f74185cf",
     "packages": [
         {
             "name": "admad/cakephp-sequence",
@@ -545,7 +545,7 @@
             "version": "3.0.5",
             "source": {
                 "type": "git",
-                "url": "/home/rachman/work/repo/croogo/croogo.git",
+                "url": "https://github.com/croogo/croogo.git",
                 "reference": "6737c7df3fc0e3c9a9adcd9919a1ac2fe1c46367"
             },
             "require": {
@@ -1014,6 +1014,54 @@
                 "support"
             ],
             "time": "2016-10-06T19:31:28+00:00"
+        },
+        {
+            "name": "maiconpinto/cakephp-adminlte-theme",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maiconpinto/cakephp-adminlte-theme.git",
+                "reference": "4b8d7cd4ab895751176704f16443f4ace87b1fed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maiconpinto/cakephp-adminlte-theme/zipball/4b8d7cd4ab895751176704f16443f4ace87b1fed",
+                "reference": "4b8d7cd4ab895751176704f16443f4ace87b1fed",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "AdminLTE\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maicon Pinto",
+                    "email": "maiconsilva.pinto@gmail.com",
+                    "homepage": "https://www.maiconpinto.com.br/",
+                    "role": "Author"
+                }
+            ],
+            "description": "CakePHP 3.x AdminLTE Theme.",
+            "homepage": "https://github.com/maiconpinto/cakephp-adminlte-theme",
+            "keywords": [
+                "cakephp",
+                "plugin",
+                "templates"
+            ],
+            "time": "2018-12-24T22:23:17+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",

@@ -220,3 +220,5 @@ if (Configure::read('debug')) {
 Plugin::load('DebugKit');
 
 Plugin::load('LamanPuteri', ['bootstrap' => false, 'routes' => true]);
+Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
+
