@@ -216,3 +216,7 @@ if (Configure::read('debug')) {
     Plugin::load('Migrations');
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
+
+Plugin::load('DebugKit');
+
+Plugin::load('LamanPuteri', ['bootstrap' => false, 'routes' => true]);
